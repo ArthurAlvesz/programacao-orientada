@@ -2,10 +2,10 @@ package encapsulamento;
 
 public class executavel {
 
-        public static void main (string[] args){
+        public static void main (String[] args){
             
-            contacorrente c1 = new contacorrente(numero: 123, saldo: 10);
+            contacorrente c1 = new contacorrente(123, 10);
            
-            system.out.println(c1);
+            System.out.println(c1);
         }
 }

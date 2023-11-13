@@ -1,7 +1,13 @@
 /*Calculadora Simples Crie um programa Java que funcione como uma calculadora simples. Peça ao usuário para inserir dois números e uma operação (+, -, *, /). Realize a operação escolhida e exiba o resultado. */
 
+import java.util.Scanner;
+
 public class CalculadoraSimples {
 
+    
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -41,5 +47,7 @@ public class CalculadoraSimples {
         System.out.println("Resultado: " + resultado);
 
         scanner.close();
+    
+}
     }
 }
