@@ -37,8 +37,10 @@ public class CalculadoraSimples {
                     resultado = numero1 / numero2;
                 } else {
                     System.out.println("Não é possível dividir por zero.");
-                    System.exit(1); 
-                break;
+                    System.exit(1);
+                    break;
+                }
+                
             default:
                 System.out.println("Operação inválida.");
                 System.exit(1); 
@@ -50,4 +52,4 @@ public class CalculadoraSimples {
     
 }
     }
-}
+
